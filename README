@@ -1,6 +1,5 @@
 Backend : Gestion des rémunérations d’un circuit de distribution
 =====================================
 Ce projet constitue la partie backend du projet gestion des rémunérations d’un circuit de distribution.
-Les technologies utilisées dans ce projet sont : Play 2 framework - java - Ebean - apache PIO - Akka job - PostgreSQL - 
-Floobits - IntelliJ IDEA - Netty.
+Les technologies utilisées dans ce projet sont : Play 2 framework - java - Ebean - apache PIO - Akka job - PostgreSQL - IntelliJ IDEA.
 Modéle de coneption de base de donnée : DAO.
