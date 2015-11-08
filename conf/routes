@@ -1,0 +1,32 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+POST        /traitementDc         controllers.Application.traitement_dc()
+POST        /traitementCdd        controllers.Application.traitement_cdd()
+POST        /traitementCsd        controllers.Application.traitement_csd()
+POST        /traitementRrb        controllers.Application.traitement_rrb()
+POST        /traitementCdi        controllers.Application.traitement_cdi()
+POST        /traitementCsp        controllers.Application.traitement_csp()
+POST        /traitementRrp        controllers.Application.traitement_rrp()
+POST        /traitementRrd        controllers.Application.traitement_rrd()
+GET         /objectifDc           controllers.Application.objectif_dc()
+POST        /objectifDc           controllers.Application.traitement_objectif_dc()
+GET         /objectifCdd          controllers.Application.objectif_cdd()
+POST        /objectifCdd          controllers.Application.traitement_objectif_cdd()
+GET         /objectifCdi          controllers.Application.objectif_cdi()
+POST        /objectifCdi          controllers.Application.traitement_objectif_cdi()
+GET         /objectifCsp          controllers.Application.objectif_csp()
+POST        /objectifCsp          controllers.Application.traitement_objectif_csp()
+GET         /objectifCsd          controllers.Application.objectif_csd()
+POST        /objectifCsd          controllers.Application.traitement_objectif_csd()
+GET         /objectifRrd          controllers.Application.objectif_rrd()
+POST        /objectifRrd          controllers.Application.traitement_objectif_rrd()
+GET         /objectifRrb          controllers.Application.objectif_rrb()
+POST        /objectifRrb          controllers.Application.traitement_objectif_rrb()
+GET         /objectifRrp          controllers.Application.objectif_rrp()
+POST        /objectifRrp          controllers.Application.traitement_objectif_rrp()
+GET         /rapport              controllers.Application.rapport()
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file         controllers.Assets.at(path="/public", file)
